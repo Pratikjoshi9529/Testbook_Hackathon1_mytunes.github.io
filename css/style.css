@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+.main {
+  height: 100vh;
+  /* width: 100vw; */
+  /* background-color: black; */
+  background: url(../img/showcase.jpeg);
+  background-size: cover;
+  background-position: center center;
+}
+.nav {
+  height: 3rem;
+  width: 100%;
+  background-color: rgba(60, 60, 60, 1);
+}
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+.nav ul li {
+  padding: 0.5rem;
+}
+.nav ul li:hover {
+  padding: 0.7rem;
+  background-color: rgb(82, 80, 80);
+}
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem !important;
+}
+.homepage {
+  color: white;
+  justify-content: center;
+  padding-top: 8%;
+}
+.homepage * {
+  display: flex;
+  justify-content: center;
+}
+.homepage h1 {
+  font-size: 4.5rem;
+  padding: 2rem 5rem;
+}
+.homepage h3 {
+  font-size: 3rem;
+  padding: 1rem 5rem;
+}
+.homepage h4 {
+  font-size: 1.9rem;
+  text-align: center;
+  padding: 2rem 6rem;
+}
+.second {
+  height: 100%;
+  /* width: 100vw; */
+  background-color: rgb(59, 59, 59);
+  padding: 3% 1%;
+}
+.second * {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.second h1 {
+  font-weight: 100;
+
+  font-size: 50px;
+  gap: 1rem;
+}
+.second h1 i {
+  margin-top: 0.8%;
+}
+.second h2 {
+  font-size: 46px;
+  padding-top: 4%;
+}
+.second .sec_para {
+  color: white;
+  font-size: 27px;
+  width: 90%;
+  text-align: center;
+  padding-top: 3.5%;
+  padding-bottom: 2.8%;
+  margin: 0 auto;
+}
+.second .start_trial {
+  text-decoration: none;
+  background-color: rgb(209, 10, 10);
+  padding: 1.2rem 1rem;
+  width: 15rem;
+  margin: 1px auto;
+  font-size: 23px;
+}
+.second .omusic {
+  padding-top: 2%;
+  font-size: 18px;
+}
+.second .img1 {
+  margin: 1px auto;
+  margin-top: 1%;
+}
+.light {
+  background-color: #f4f4f4;
+  height: 100%;
+  padding: 1%;
+  padding-top: 3%;
+  /* width: 100vw; */
+}
+.light * {
+  display: flex;
+  justify-content: center;
+}
+.light h2 {
+  font-size: 40px;
+}
+.light p {
+  font-size: 25px;
+  font-weight: 400;
+  padding-top: 4%;
+  padding-bottom: 2%;
+  width: 85%;
+  margin: auto;
+  text-align: center;
+}
+.light .read_more {
+  text-decoration: none;
+  font-size: 20px;
+  width: 8rem;
+  padding: 1.2rem 2rem;
+  color: white;
+  background-color: rgb(9, 9, 53);
+  margin: 1px auto;
+  border-radius: 5px;
+}
+.light img {
+  margin: 1px auto;
+  width: 90%;
+}
+.bg3 {
+  /* width: 100vw; */
+  padding: 10% 0%;
+  background: url(../img/section-bg.jpeg);
+  color: white;
+}
+.bg3 * {
+  display: flex;
+  justify-content: center;
+}
+.bg3 h1 {
+  font-size: 40px;
+  padding-bottom: 3%;
+}
+.bg3 p {
+  font-size: 28px;
+  width: 90%;
+  text-align: center;
+  margin: auto;
+}
+.bg4 {
+  display: flex;
+  justify-content: center;
+  padding: 3% 2%;
+  padding-bottom: 10%;
+  height: 100%;
+  background-color: #f8f6f6ec;
+}
+.bg41,
+.bg42 {
+  height: 40vh;
+  width: 40vw;
+}
+.bg41 img {
+  width: 100%;
+}
+.bg42 {
+  padding: 1rem;
+}
+.bg42 p {
+  font-size: 20px;
+  padding: 3% 0;
+}
+.bg42 a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(9, 9, 53);
+}
+.bg5 {
+  display: flex;
+  padding: 3%;
+  gap: 1.5rem;
+  justify-content: center;
+  background-color: rgb(32, 32, 32);
+}
+.bg5 .bg51 {
+  height: 100%;
+  padding: 1rem;
+  width: calc(100vw / 5);
+
+  background-color: transparent;
+  color: white;
+}
+.bg51 h2 {
+  padding: 1rem;
+}
+.bg51 ul {
+  list-style: none;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.bg51 ul a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+.footer {
+  padding: 1rem;
+  background-color: rgb(59, 58, 58);
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 25px;
+}
